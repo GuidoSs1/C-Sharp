@@ -43,9 +43,9 @@ namespace Entidades
         private static bool EsBinario(string binario)
         {
             int cont = 0;
-            for (int i = -1; i < binario.Length; i++)
+            foreach (var item in binario)
             {
-                if (binario[i] == '1' || binario[i] == '0')
+                if (item == 1 || item == 0)
                     cont++;
             }
             if(cont == binario.Length)
@@ -56,11 +56,23 @@ namespace Entidades
         }
         public static string BinarioDecimal(string binario)
         {
-            bool validacion = EsBinario(binario);
-            string rtn = "Valor Inválido";
-            if(validacion == true)
-                return rtn = Convert.ToInt32(binario, 2).ToString();
-            return rtn;        
+            bool validacion = true;
+            string rtn = "Valor inválido";
+
+            foreach (var item in binario)
+            {
+                if (item != '0' && item != '1')
+                {
+                    validacion = false;
+                }
+            }
+
+            if (validacion == true)
+            {
+                rtn = Convert.ToInt32(binario, 2).ToString();
+            }
+
+            return rtn;
         }
         public static string DecimalBinario(double numero)
         {

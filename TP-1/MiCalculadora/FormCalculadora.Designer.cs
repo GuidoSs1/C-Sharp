@@ -108,10 +108,12 @@ namespace MiCalculadora
             // 
             // cmbOperador
             // 
+            this.cmbOperador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperador.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cmbOperador.FormattingEnabled = true;
-            this.cmbOperador.Items.AddRange(new object[] {
+            this.cmbOperador.Items.AddRange(new object[] { 
+            " ",
             "+",
             "-",
             "/",

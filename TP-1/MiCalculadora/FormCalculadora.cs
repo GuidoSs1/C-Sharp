@@ -47,7 +47,12 @@ namespace MiCalculadora
             else
                 this.lblResultado.Text = Convert.ToString(num);
 
-            string item = this.txtNumero1.Text +" "+ this.cmbOperador.Text+" "+ this.txtNumero2.Text+" = "+ this.lblResultado.Text;
+            double n1;
+            double n2;
+            double.TryParse(this.txtNumero1.Text, out n1);
+            double.TryParse(this.txtNumero1.Text, out n2);
+
+            string item = n1.ToString() +" "+ this.cmbOperador.Text+" "+ n2.ToString() +" = "+ this.lblResultado.Text;
             this.lstOperaciones.Items.Add(item);
         }
 
@@ -71,7 +76,7 @@ namespace MiCalculadora
         {
             this.txtNumero1.Text = "";
             this.txtNumero2.Text = "";
-            this.cmbOperador.Text = "";
+            this.cmbOperador.Text = " ";
             this.lblResultado.Text = "";
         }
 
