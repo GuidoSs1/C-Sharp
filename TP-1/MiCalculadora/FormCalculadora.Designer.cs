@@ -21,6 +21,7 @@ namespace MiCalculadora
             base.Dispose(disposing);
         }
         
+        // Declaracion de los controles a utilizar
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnConvertirABinario;
         private System.Windows.Forms.Button btnConvertirADecimal;
