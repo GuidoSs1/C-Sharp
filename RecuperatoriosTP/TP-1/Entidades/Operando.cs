@@ -21,17 +21,16 @@ namespace Entidades
 
         #region Constructores
         // Constructor por defecto de un Objeto de la clase Operando
-        public Operando()
+        public Operando() : this(0)
         {
-            this.numero = 0;
         }
         // Constructor con parametro double 
-        public Operando(double numero) : this()
+        public Operando(double numero)
         {
             this.numero = numero;
         }
         // Constructor con el numero en una variable del tipo string que llama a la propiedad que lo setea
-        public Operando(string strNumero) : this()
+        public Operando(string strNumero)
         {
             this.Numero = strNumero;
         }
