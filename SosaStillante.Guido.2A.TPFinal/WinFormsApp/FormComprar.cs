@@ -33,24 +33,38 @@ namespace WinFormsApp
             Double.TryParse(this.txtBilletera.Text, out bille);
             int dni;
             Int32.TryParse(this.txtDocumento.Text, out dni);
+            int name;
+            Int32.TryParse(this.txtNombre.Text, out name);
+            int surname;
+            Int32.TryParse(this.txtApellido.Text, out surname);
+
             if(bille == 0 || dni == 0)
             {
-                MessageBox.Show("Vuelva a Intentarlo");
+                MessageBox.Show("Datos Incorrectos. Vuelva a Intentarlo");
                 this.DialogResult = DialogResult.Cancel;
             }
             else
             {
-                if(Int32.Parse(this.txtBilletera.Text) >= 63000)
+                if(Int64.Parse(this.txtBilletera.Text) >= 63000)
                 {
-                    if (String.IsNullOrWhiteSpace(this.txtNombre.Text) || String.IsNullOrWhiteSpace(this.txtApellido.Text))
+                    if (String.IsNullOrWhiteSpace(this.txtNombre.Text) || String.IsNullOrWhiteSpace(this.txtApellido.Text) || String.IsNullOrWhiteSpace(this.cboCompradorGenero.Text))
                     {
-                        this.comprador = new Comprador(this.txtDocumento.Text, this.txtBilletera.Text);
-                        MessageBox.Show("El comprador sera anonimo.");
+                        MessageBox.Show("Datos Incorrectos. Vuelva a Intentarlo");
+                        this.DialogResult = DialogResult.Cancel;
                     }
                     else
                     {
-                        this.comprador = new Comprador(this.txtNombre.Text, this.txtApellido.Text,
+                        if(name == 0 && surname == 0)
+                        {
+                            this.comprador = new Comprador(this.txtNombre.Text, this.txtApellido.Text,
                                     this.txtDocumento.Text, (EGenero)this.cboCompradorGenero.SelectedItem, this.txtBilletera.Text);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Datos Incorrectos. Vuelva a Intentarlo");
+                            this.DialogResult = DialogResult.Cancel;
+                        }
+                        
                     }
                     this.DialogResult = DialogResult.OK;
                 }

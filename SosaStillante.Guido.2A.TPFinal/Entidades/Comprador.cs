@@ -25,28 +25,6 @@ namespace Entidades
         public Comprador() { }
 
         /// <summary>
-        /// Sobrecarga de constructor con parametros correctos para la asignacion, utiliza el constructor base que inicializa al comprador de forma anonima
-        /// </summary>
-        /// <param name="dni">Documento del Comprador</param>
-        /// <param name="billeteraUsd">Billetera del comprador</param>
-        public Comprador(long dni, double billeteraUsd) : base() 
-        {
-            this.dni = dni;
-            this.billeteraUsd = billeteraUsd;
-        }
-
-        /// <summary>
-        /// Sobrecarga de constructor con parametros de tipo string, invoca a las propiadades que lo setean al tipo requerido, utiliza el contructor base por defecto
-        /// </summary>
-        /// <param name="dni">Documento en tipo string</param>
-        /// <param name="billeteraUsd">Billetera en tipo string</param>
-        public Comprador(string dni, string billeteraUsd) : base()
-        {
-            this.stringDNI = dni;
-            this.BilleteraUsd = billeteraUsd;
-        }
-
-        /// <summary>
         /// Sobrecarga de constructor completo
         /// </summary>
         /// <param name="nombre"></param>

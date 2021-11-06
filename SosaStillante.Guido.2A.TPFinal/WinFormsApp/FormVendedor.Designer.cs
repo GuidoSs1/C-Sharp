@@ -39,7 +39,7 @@ namespace WinFormsApp
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.cboCompradorGenero = new System.Windows.Forms.ComboBox();
+            this.cboGenero = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtBtc = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -123,11 +123,11 @@ namespace WinFormsApp
             // 
             // cboCompradorGenero
             // 
-            this.cboCompradorGenero.FormattingEnabled = true;
-            this.cboCompradorGenero.Location = new System.Drawing.Point(12, 159);
-            this.cboCompradorGenero.Name = "cboCompradorGenero";
-            this.cboCompradorGenero.Size = new System.Drawing.Size(213, 23);
-            this.cboCompradorGenero.TabIndex = 2;
+            this.cboGenero.FormattingEnabled = true;
+            this.cboGenero.Location = new System.Drawing.Point(12, 159);
+            this.cboGenero.Name = "cboCompradorGenero";
+            this.cboGenero.Size = new System.Drawing.Size(213, 23);
+            this.cboGenero.TabIndex = 2;
             // 
             // label5
             // 
@@ -161,7 +161,7 @@ namespace WinFormsApp
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.cboCompradorGenero);
+            this.Controls.Add(this.cboGenero);
             this.Name = "FormComprar";
             this.Text = "FormComprar";
             this.ResumeLayout(false);
@@ -180,7 +180,7 @@ namespace WinFormsApp
         protected System.Windows.Forms.TextBox txtApellido;
         protected System.Windows.Forms.TextBox txtDocumento;
         private System.Windows.Forms.Label label4;
-        protected System.Windows.Forms.ComboBox cboCompradorGenero;
+        protected System.Windows.Forms.ComboBox cboGenero;
         private System.Windows.Forms.Label label5;
         protected System.Windows.Forms.TextBox txtBtc;
     }

@@ -46,29 +46,6 @@ namespace Entidades
         public Vendedor() { }
 
         /// <summary>
-        /// Sobrecarga de costrutor con  parametros long y double para asignar a atributos, invocando al constructor por defecto de la clase base
-        /// </summary>
-        /// <param name="dni">Documento del vendedor</param>
-        /// <param name="btc">Cantidad de BTC que posee</param>
-        public Vendedor(long dni, double btc) : base()
-        {
-            this.dni = dni;
-            this.btc = btc;
-            listaCompradores = new Listado<Comprador>(100);
-        }
-        /// <summary>
-        /// Sobrecarga de costrutor con  parametros string, para parsear de ser posible por medio de las propiedades a long y double y asignar sus valores invoca al constructor por defecto de la clase base
-        /// </summary>
-        /// <param name="dni">Documento en string del vendedor</param>
-        /// <param name="btc">BTC del vendedor en string</param>
-        public Vendedor(string dni, string btc) : base()
-        {
-            this.stringDNI = dni;
-            this.btcString = btc;
-            listaCompradores = new Listado<Comprador>(100);
-        }
-
-        /// <summary>
         /// Sobrecarga de constructor con todos los parametros necesarios de la clase base, invoca a la sobrecarga de la clase base correspondiente
         /// </summary>
         /// <param name="nombre">Nombre del vendedor</param>

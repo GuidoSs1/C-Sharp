@@ -34,7 +34,7 @@ namespace WinFormsApp
 
             if (String.IsNullOrWhiteSpace(nombre) && String.IsNullOrWhiteSpace(cantMax))
             {
-                this.tienda = new Tienda();
+                this.tienda = new Tienda("TiendaCrypto");
                 MessageBox.Show("Se inicializara de forma predeterminada TiendaCrypto, capacidad para 5 vendedores..");
             }
             else if (!String.IsNullOrWhiteSpace(nombre) && String.IsNullOrWhiteSpace(cantMax))

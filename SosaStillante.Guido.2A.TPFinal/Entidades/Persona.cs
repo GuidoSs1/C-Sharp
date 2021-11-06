@@ -67,7 +67,7 @@ namespace Entidades
         /// <summary>
         /// Constructor por defecto que invoca a la sobrecarga pasandole como parametros valores predeterminados
         /// </summary>
-        public Persona() : this("Anonimo", "Anonimo", 0, EGenero.SinGenero) { }
+        public Persona() { }
 
         /// <summary>
         /// Sobrecarga de constructo completo

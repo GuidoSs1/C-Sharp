@@ -21,13 +21,13 @@ namespace WinFormsApp
             this.MinimizeBox = false;
             this.MaximizeBox = false;
 
-            this.cboCompradorGenero.DataSource = Enum.GetValues(typeof(EGenero));
-            this.cboCompradorGenero.DropDownStyle = ComboBoxStyle.DropDownList;
-            this.cboCompradorGenero.SelectedItem = EGenero.SinGenero;
+            this.cboGenero.DataSource = Enum.GetValues(typeof(EGenero));
+            this.cboGenero.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.cboGenero.SelectedItem = EGenero.SinGenero;
         }
 
         /// <summary>
-        /// Metodo que controla los datos ingresados por el usuario para agregar un vendedor, siendo obligatorios el dni y los btc, de no llenar los demas campos el vendedor se inicializara de forma anonima por defecto
+        /// Metodo que controla los datos ingresados por el usuario para agregar un vendedor, de no llenar todos los campos se cancelara la accion
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -37,23 +37,37 @@ namespace WinFormsApp
             Double.TryParse(this.txtBtc.Text, out btc);
             int dni;
             Int32.TryParse(this.txtDocumento.Text, out dni);
+            int name;
+            Int32.TryParse(this.txtApellido.Text, out name);
+            int surname;
+            Int32.TryParse(this.txtNombre.Text, out surname);
 
             if (btc == 0 || dni == 0)
             {
-                MessageBox.Show("Vuelva a Intentarlo");
+                MessageBox.Show("Datos Incorrectos. Vuelva a Intentarlo");
                 this.DialogResult = DialogResult.Cancel;
             }
             else
             {
-                if(String.IsNullOrWhiteSpace(this.txtNombre.Text) || String.IsNullOrWhiteSpace(this.txtApellido.Text))
+                if(String.IsNullOrWhiteSpace(this.txtNombre.Text) || String.IsNullOrWhiteSpace(this.txtApellido.Text) || String.IsNullOrWhiteSpace(this.cboGenero.Text))
                 {
-                    this.vendedor = new Vendedor(this.txtDocumento.Text, this.txtBtc.Text);
-                    MessageBox.Show("El vendedor sera anonimo.");
+                    MessageBox.Show("Datos Incorrectos. Vuelva a Intentarlo");
+                    this.DialogResult = DialogResult.Cancel;
                 }
                 else
                 {
-                    this.vendedor = new Vendedor(this.txtNombre.Text, this.txtApellido.Text,
-                                this.txtDocumento.Text, (EGenero)this.cboCompradorGenero.SelectedItem, this.txtBtc.Text);
+
+                    if(name == 0 && surname == 0)
+                    {
+                        this.vendedor = new Vendedor(this.txtNombre.Text, this.txtApellido.Text,
+                                this.txtDocumento.Text, (EGenero)this.cboGenero.SelectedItem, this.txtBtc.Text);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Datos Incorrectos. Vuelva a Intentarlo");
+                        this.DialogResult = DialogResult.Cancel;
+                    }
+                    
                 }
                 
                 this.DialogResult = DialogResult.OK;

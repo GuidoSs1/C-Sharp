@@ -93,7 +93,7 @@ namespace WinFormsApp
                 Vendedor vendedor = (Vendedor)this.lstVendedores.SelectedItem;
                 if (MessageBox.Show("¿Esta seguro que quiere eliminar al vendedor seleccionado?", "Atención",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question,
-                MessageBoxDefaultButton.Button2) == DialogResult.No)
+                MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
                     this.tienda.listVen.Lista.Remove(vendedor);
                 }

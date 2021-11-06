@@ -180,7 +180,7 @@ namespace Entidades
         /// <returns></returns>
         private int OrdenarPorGanancia(Vendedor a, Vendedor b)
         {
-            return (int)(a.ganancia - b.ganancia);
+            return (int)(b.ganancia - a.ganancia);
         }
         /// <summary>
         /// Metodo de ordenamiento por Ganacia, de mayor a menor
@@ -190,7 +190,7 @@ namespace Entidades
         /// <returns></returns>
         private static int OrdenarPorCantCompradores(Vendedor a, Vendedor b)
         {
-            return (int)(a.listaCompradores.Cantidad - b.listaCompradores.Cantidad);
+            return (int)(b.listaCompradores.Cantidad - a.listaCompradores.Cantidad);
         }
         /// <summary>
         /// Metodo de ordenamiento por nombre(alfabeticamente)

@@ -8,9 +8,9 @@ namespace TestUnitarios
     {
         Tienda tienda = new Tienda(5, "TiendaGuido");
 
-        Vendedor a1 = new Vendedor(23232232, 30);
-        Vendedor a2 = new Vendedor("43242424", "340");
-        Vendedor a6 = new Vendedor("434343434", "5");
+        Vendedor a1 = new Vendedor("carlos", "rodrigues", 23232332, EGenero.Masculino, 30);
+        Vendedor a2 = new Vendedor("marcos", "escobar", "43242424", EGenero.NoBinario, "340");
+        Vendedor a6 = new Vendedor("marcelo", "bustos", "434343434", EGenero.Masculino, "5");
         Vendedor a3 = new Vendedor("guido", "sosa", 43784626, EGenero.Masculino, 10);
         Vendedor a4 = new Vendedor("pepe", "martinez", 43784626, EGenero.NoBinario, 310);
         Vendedor a5 = new Vendedor("marto", "gonzales", 23232232, EGenero.Femenino, 90);
