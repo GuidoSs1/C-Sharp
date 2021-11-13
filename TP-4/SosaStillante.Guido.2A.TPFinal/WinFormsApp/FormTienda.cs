@@ -310,6 +310,10 @@ namespace WinFormsApp
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question,
                 MessageBoxDefaultButton.Button2) == DialogResult.No)
             {
+                if(this.tActualizar.Status == TaskStatus.Running)
+                {
+                    this.tActualizar.Wait();
+                }
                 e.Cancel = true;
             }
         }
