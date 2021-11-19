@@ -1,0 +1,7 @@
+C:\Users\guido\source\repos\SosaStillante.Guido\ClaseLabo2\bin\Debug\ClaseLabo2.exe.config
+C:\Users\guido\source\repos\SosaStillante.Guido\ClaseLabo2\bin\Debug\ClaseLabo2.exe
+C:\Users\guido\source\repos\SosaStillante.Guido\ClaseLabo2\bin\Debug\ClaseLabo2.pdb
+C:\Users\guido\source\repos\SosaStillante.Guido\ClaseLabo2\obj\Debug\Sobrecargas.csproj.AssemblyReference.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\ClaseLabo2\obj\Debug\Sobrecargas.csproj.CoreCompileInputs.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\ClaseLabo2\obj\Debug\ClaseLabo2.exe
+C:\Users\guido\source\repos\SosaStillante.Guido\ClaseLabo2\obj\Debug\ClaseLabo2.pdb

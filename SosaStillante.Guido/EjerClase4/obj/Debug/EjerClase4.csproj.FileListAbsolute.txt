@@ -1,0 +1,7 @@
+C:\Users\guido\source\repos\SosaStillante.Guido\EjerClase4\bin\Debug\EjerClase4.exe.config
+C:\Users\guido\source\repos\SosaStillante.Guido\EjerClase4\bin\Debug\EjerClase4.exe
+C:\Users\guido\source\repos\SosaStillante.Guido\EjerClase4\bin\Debug\EjerClase4.pdb
+C:\Users\guido\source\repos\SosaStillante.Guido\EjerClase4\obj\Debug\EjerClase4.csproj.AssemblyReference.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\EjerClase4\obj\Debug\EjerClase4.csproj.CoreCompileInputs.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\EjerClase4\obj\Debug\EjerClase4.exe
+C:\Users\guido\source\repos\SosaStillante.Guido\EjerClase4\obj\Debug\EjerClase4.pdb

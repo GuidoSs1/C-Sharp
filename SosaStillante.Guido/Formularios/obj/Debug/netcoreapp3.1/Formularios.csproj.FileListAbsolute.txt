@@ -1,0 +1,15 @@
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\bin\Debug\netcoreapp3.1\Formularios.exe
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\bin\Debug\netcoreapp3.1\Formularios.deps.json
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\bin\Debug\netcoreapp3.1\Formularios.runtimeconfig.json
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\bin\Debug\netcoreapp3.1\Formularios.runtimeconfig.dev.json
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\bin\Debug\netcoreapp3.1\Formularios.dll
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\bin\Debug\netcoreapp3.1\Formularios.pdb
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.csproj.AssemblyReference.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.Form1.resources
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.csproj.GenerateResource.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.AssemblyInfoInputs.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.AssemblyInfo.cs
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.dll
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.pdb
+C:\Users\guido\source\repos\SosaStillante.Guido\Formularios\obj\Debug\netcoreapp3.1\Formularios.genruntimeconfig.cache

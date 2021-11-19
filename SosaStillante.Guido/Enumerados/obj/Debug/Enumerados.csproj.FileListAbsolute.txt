@@ -1,0 +1,7 @@
+C:\Users\guido\source\repos\SosaStillante.Guido\Enumerados\bin\Debug\Enumerados.exe.config
+C:\Users\guido\source\repos\SosaStillante.Guido\Enumerados\bin\Debug\Enumerados.exe
+C:\Users\guido\source\repos\SosaStillante.Guido\Enumerados\bin\Debug\Enumerados.pdb
+C:\Users\guido\source\repos\SosaStillante.Guido\Enumerados\obj\Debug\Enumerados.csproj.AssemblyReference.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\Enumerados\obj\Debug\Enumerados.csproj.CoreCompileInputs.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\Enumerados\obj\Debug\Enumerados.exe
+C:\Users\guido\source\repos\SosaStillante.Guido\Enumerados\obj\Debug\Enumerados.pdb

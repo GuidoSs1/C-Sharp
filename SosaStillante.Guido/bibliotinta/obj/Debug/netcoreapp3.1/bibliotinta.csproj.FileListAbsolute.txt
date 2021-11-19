@@ -1,0 +1,9 @@
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\bin\Debug\netcoreapp3.1\bibliotinta.deps.json
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\bin\Debug\netcoreapp3.1\bibliotinta.dll
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\bin\Debug\netcoreapp3.1\bibliotinta.pdb
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\obj\Debug\netcoreapp3.1\bibliotinta.csproj.AssemblyReference.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\obj\Debug\netcoreapp3.1\bibliotinta.AssemblyInfoInputs.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\obj\Debug\netcoreapp3.1\bibliotinta.AssemblyInfo.cs
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\obj\Debug\netcoreapp3.1\bibliotinta.csproj.CoreCompileInputs.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\obj\Debug\netcoreapp3.1\bibliotinta.dll
+C:\Users\guido\source\repos\SosaStillante.Guido\bibliotinta\obj\Debug\netcoreapp3.1\bibliotinta.pdb

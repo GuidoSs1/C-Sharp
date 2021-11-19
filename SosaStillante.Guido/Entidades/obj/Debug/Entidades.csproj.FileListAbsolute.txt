@@ -1,0 +1,2 @@
+C:\Users\guido\source\repos\SosaStillante.Guido\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\guido\source\repos\SosaStillante.Guido\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
